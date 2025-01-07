@@ -38,6 +38,10 @@ As online transactions increase, detecting fraudulent transactions has become cr
 2. Model training using GridSearchCV for hyperparameter tuning.
 3. Model evaluation using F1-score, Precision, and Recall (Accuracy was excluded due to data imbalance).
 
+
+![F1-Score Across Models](./Pictures/process_flow.png)
+
+
 ---
 
 ## **Key Results**
@@ -56,7 +60,7 @@ As online transactions increase, detecting fraudulent transactions has become cr
 - **Random Forests**: Achieved the highest F1-score of **88%**, outperforming the baseline by ~3%.
 - **SVM**: Comparable F1-score to Random Forests with lower computational cost.
 - **Logistic Regression**: Improved F1-score by ~3% over the baseline with hyperparameter tuning.
-- **SMOTE Techniques**: Increased Recall but significantly reduced Precision, leading to poor F1-scores.
+- **SMOTE Techniques**: Increased Recall but significantly reduced Precision, leading to poor F1 scores.
 
 ---
 
@@ -70,7 +74,7 @@ As online transactions increase, detecting fraudulent transactions has become cr
 This project successfully improved baseline results in detecting fraudulent transactions:
 - **Random Forests** performed the best with **88% F1-score**, demonstrating the importance of hyperparameter tuning.
 - Future improvements should focus on:
-  - **Explainability**: Enhance interpretability of model predictions.
+  - **Explainability**: Enhance the interpretability of model predictions.
   - **Efficiency**: Reduce computational cost for large datasets.
   - **Balanced Metrics**: Address trade-offs between Precision and Recall for real-world applications.
 
